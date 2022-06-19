@@ -1,0 +1,122 @@
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.c-site-header {
+  padding: 2px;
+  text-align: center;
+  background: #02b2d1;
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+  background-color: #FFFCAD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.title {
+  margin-right: 5rem;
+}
+
+.c-site-header ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.c-site-header ul li {
+  list-style: none;
+}
+
+.c-site-header ul li:hover {
+  color: black;
+}
+
+.body {
+  background: #faf87a;
+}
+
+
+
+.my-bio-header {
+  color: black;
+  font-size: 32px;
+  font-family: arial;
+}
+
+.bio-img {
+  border-radius: 10px;
+}
+.aboutMe {
+  color: black;
+  font-size: 10;
+  font-family: arial;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.my-future {
+  color: black;
+  font-size: 10;
+  font-family: arial;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.right-container {
+  width: 50%;
+  background-color: #FFFCAD;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.header-my-interests {
+  font-family: arial;
+  align-items: center;
+}
+
+.p2 {
+  font-family: arial;
+}
+
+.ul {
+  font-family: arial;
+}
+
+.p3 {
+  font-family: arial;
+}
+
+.image2 {
+  border-radius: 10px;
+}
+
+.c-site-footer {
+  padding: 20px;
+  text-align: center;
+  background: #02b2d1;
+  font-family: arial;
+  color: white;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
